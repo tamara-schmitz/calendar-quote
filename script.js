@@ -2,14 +2,14 @@ function getRandomElementfromArray(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 const backgroundColors = [
+    "#b00b69", //boobs :3
     "#9B5DE5", //purple
-    "#F15BB5", //margenta
     "#FF006E", //red
     "#0C322C", //pine green
     "#30BA78", //jungle green
     "#192072", //midnight blue
     "#2453FF", //waterhole blue
-    "#FE7C3F" //Persimmon
+    "#FE7C3F"  //Persimmon
 ];
 
 // A quote is built from three parts: beginning, middle and end-
@@ -41,7 +41,9 @@ const beginning_quote = [
     "It's much too late for you to",
     "Your heart's been aching to",
     "You're too shy to say that you want to",
-    "Inside, we both know what's been going on when you"
+    "Inside, we both know what's been going on when you",
+    "Consider:",
+    "What if you"
 ]
 
 //an activity
@@ -80,7 +82,9 @@ const middle_quote = [
     "tell someone how you're feeling",
     "make them understand",
     "keep holding on",
-    "care about things that people say"
+    "care about things that people say",
+    "help out a colleague",
+    "share your life experience and advice"
 ]
 
 // time, place or adverb
@@ -115,13 +119,15 @@ const end_quote = [
     "when you need someone to lean on",
     "each and every day",
     "is what I'm thinking of",
-    "once you know what's been going on"
+    "once you know what's been going on",
+    "as little treat 🥺",
+    "for your conscience"
 ];
 
 function getRandomQuote() {
     var quote = getRandomElementfromArray(beginning_quote).trim() + ' '
         + getRandomElementfromArray(middle_quote).trim();
-    if (Math.random() < 0.33) {
+    if (Math.random() < 0.42) {
         quote += ' ' + getRandomElementfromArray(end_quote).trim();
     }
     quote += '.';
