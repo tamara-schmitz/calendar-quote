@@ -43,7 +43,10 @@ const beginning_quote = [
     "You're too shy to say that you want to",
     "Inside, we both know what's been going on when you",
     "Consider:",
-    "What if you"
+    "What if you",
+    "Cats should",
+    "Whenever you feel eepy",
+    "A lil snoozer may want to"
 ]
 
 //an activity
@@ -84,7 +87,12 @@ const middle_quote = [
     "keep holding on",
     "care about things that people say",
     "help out a colleague",
-    "share your life experience and advice"
+    "share your life experience and advice",
+    "meow",
+    "be a cat",
+    "give a lil cat some pat pats",
+    "meowing in the office",
+    "get tuckered into a comfy bed and be a lil snoozer"
 ]
 
 // time, place or adverb
@@ -121,7 +129,8 @@ const end_quote = [
     "is what I'm thinking of",
     "once you know what's been going on",
     "as little treat 🥺",
-    "for your conscience"
+    "for your conscience",
+    "on caturday"
 ];
 
 function getRandomQuote() {
